@@ -1,0 +1,27 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${IP}/${path} = caminho de identificação do recurso
+
+IP: https://pokeapi.co <- DNS -> https://127.0.0.1:3000
+
+Request Method: GET -> 'BUSCAR' | POST -> 'INSERIR' | PUT -> 'ATUALIZAR' | DELETE -> 'DELETAR' 
+
+Query String (conteúdo após o símbolo de '?'): Serve para filtrar recursos específicos
+Exemplo:
+  URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+  "busque todo os pokemons do tipo 'grass' e nome 'i'"
+
+HEADER -> CONFIGURAÇÃO DA TRANSMISSÃO DE DADOS ENTRE CLIENTE E SERVIDOR
+
+Request Headers|Response Headers -> Configuração da API
+
+Request Headers = retorna o que aceita (em ordem de prioridade)
+Response Headers = retorna o que foi respondido
+
+
+Request Body -> o corpo da nossa requisição - DADOS
+
+Status Code -> mostra o que aconteceu com a requisição, se ela foi processada ou não, por exemplo. 
+
+
