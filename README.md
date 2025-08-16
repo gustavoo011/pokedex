@@ -1,4 +1,5 @@
-Link para acessar o projeto: 
+Link para acessar o projeto: https://gustavoo011.github.io/pokedex/
+
 
 Pokédex – 1ª Geração (PokeAPI + JavaScript)
 
